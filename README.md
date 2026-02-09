@@ -45,12 +45,12 @@ This curriculum is designed to transform students from JavaScript beginners to c
 
 | Week | Duration | Primary Focus | Topics | Hours | Status |
 |------|----------|---------------|--------|-------|--------|
-| **[Week 1](./Curriculum/Week-1/)** | 5 Days | Fundamentals | Values, Types, Operators, Basic Syntax | 15 | ✅ |
-| **[Week 2](./Curriculum/Week-2/)** | 5 Days | Program Structure | Control Flow, Loops, Functions | 15 | ✅ |
-| **[Week 3](./Curriculum/Week-3/)** | 5 Days | Data Structures | Arrays, Objects, String Manipulation | 15 | ✅ |
-| **[Week 4](./Curriculum/Week-4/)** | 5 Days | Higher-Order Functions | Map, Filter, Reduce, Callbacks, Closures | 15 | ✅ |
-| **[Week 5](./Curriculum/Week-5/)** | 5 Days | OOP & Advanced Concepts | Classes, Inheritance, Prototypes, Encapsulation | 15 | ✅ |
-| **[Week 6](./Curriculum/Week-6/)** | 5 Days | Integration & Review | DOM, Events, Real Projects, Assessments | 15 | ✅ |
+| **[Week 1](./Curriculum/Week-1/)** | 5 Days | Fundamentals | Values, Types, Operators, Empty Values, Type Conversion | 15 | ✅ |
+| **[Week 2](./Curriculum/Week-2/)** | 5 Days | Program Structure | Expression Statements, Control Flow, Loops, Functions | 15 | ✅ |
+| **[Week 3](./Curriculum/Week-3/)** | 5 Days | Functions & Data Structures | Call Stack, Closures, Recursion, Rest Params, Arrays, Objects, Mutability | 15 | ✅ |
+| **[Week 4](./Curriculum/Week-4/)** | 5 Days | Higher-Order Functions | Abstraction, Map, Filter, Reduce, Script Data, Composability | 15 | ✅ |
+| **[Week 5](./Curriculum/Week-5/)** | 5 Days | OOP & Advanced | Prototypes, Classes, Private Fields, Symbols, Iterators, Inheritance | 15 | ✅ |
+| **[Week 6](./Curriculum/Week-6/)** | 5 Days | Integration & Review | Review, Assessment, Self-Study (DOM, Events, APIs, Async, Modules) | 15 | ✅ |
 
 ---
 
@@ -75,10 +75,11 @@ BCA IV sem/
 ├── Curriculum/
 │   ├── Week-1/                    # Fundamentals & Syntax
 │   ├── Week-2/                    # Control Flow & Functions
-│   ├── Week-3/                    # Data Structures
+│   ├── Week-3/                    # Functions Deep Dive & Data Structures
 │   ├── Week-4/                    # Higher-Order Functions
 │   ├── Week-5/                    # OOP & Advanced
 │   ├── Week-6/                    # Integration & Review
+│   │   └── Self-Study/            # 5 advanced self-study documents
 │   ├── Sample-Code/               # Reusable code examples
 │   ├── Guides/                    # Integration & Best Practices
 │   └── Resources/                 # Syllabus & learning materials
@@ -197,39 +198,39 @@ We follow a **progressive difficulty** model:
 ## 🔗 Quick Navigation (Complete Curriculum)
 
 ### 📚 [Week 1: Fundamentals & Values](./Curriculum/Week-1/README.md) ✅
-- **Topics:** JavaScript Introduction, Values, Types, Operators
+- **Topics:** JavaScript Introduction, Values, Types, Operators, Empty Values, Type Conversion
 - **Experiments:** Exp 1-7 (7 experiments)
 - **Project:** Smart Expense Calculator
 - **[Start Week 1](./Curriculum/Week-1/)**
 
 ### 📚 [Week 2: Program Structure & Control Flow](./Curriculum/Week-2/README.md) ✅
-- **Topics:** Expressions, Statements, Conditionals, Loops, Functions
+- **Topics:** Expression Statements, Bindings, Control Flow, Conditionals, Loops, Functions
 - **Experiments:** Exp 8-12 (5 experiments)
 - **Project:** Student Grade Management System
 - **[Start Week 2](./Curriculum/Week-2/)**
 
-### 📚 [Week 3: Data Structures](./Curriculum/Week-3/README.md) ✅
-- **Topics:** Arrays, Objects, Strings, Data Manipulation
+### 📚 [Week 3: Functions & Data Structures](./Curriculum/Week-3/README.md) ✅
+- **Topics:** Declaration Notation, Hoisting, Call Stack, Closures Deep Dive, Recursion, Rest Parameters, Arrays (Further Arrayology), Objects (Mutability, Correlation), Strings
 - **Experiments:** Exp 13-16 (4 experiments)
 - **Project:** Contact Manager Application
 - **[Start Week 3](./Curriculum/Week-3/)**
 
 ### 📚 [Week 4: Higher-Order Functions](./Curriculum/Week-4/README.md) ✅
-- **Topics:** Map, Filter, Reduce, Callbacks, Functional Programming
+- **Topics:** Abstraction, Map, Filter, Reduce, Script Data Set, Strings & Character Codes, Composability, Recognizing Text
 - **Experiments:** Exp 17-22 (6 experiments)
 - **Project:** E-Commerce Analytics Dashboard
 - **[Start Week 4](./Curriculum/Week-4/)**
 
 ### 📚 [Week 5: Object-Oriented Programming](./Curriculum/Week-5/README.md) ✅
-- **Topics:** Classes, Inheritance, Polymorphism, Encapsulation
+- **Topics:** Classes, Prototypes, Getters/Setters, Private # Fields, Maps, Inheritance, Overriding, Symbols, Iterator Interface, Polymorphism, instanceof
 - **Experiments:** Exp 23-24 (2 experiments - FINAL)
 - **Project:** File Manager System (OOP)
 - **[Start Week 5](./Curriculum/Week-5/)**
 
 ### 📚 [Week 6: Integration & Final Assessment](./Curriculum/Week-6/README.md) ✅
-- **Topics:** DOM Basics, Events, Web APIs, Code Organization
-- **Content:** Final Review, Practice Problems, Assessment Framework
-- **Project:** Capstone Integration Project
+- **Topics:** Comprehensive Review, Assessment Framework
+- **Self-Study:** DOM, Events, Web APIs, Async JS, Modules (5 documents, 19-24 hrs)
+- **Content:** Final Review, Practice Problems, Career Guidance
 - **[Start Week 6](./Curriculum/Week-6/)**
 
 ---
@@ -264,10 +265,10 @@ We follow a **progressive difficulty** model:
 
 ---
 
-**Last Updated:** February 9, 2026  
+**Last Updated:** February 10, 2026  
 **Curriculum Status:** ✅ COMPLETE & LIVE  
-**Latest Commit:** 91f0975  
+**Content Enhancements:** Expanded syllabus coverage + 5 self-study documents  
 **Deployed:** GitHub (https://github.com/MandsaurUniversity/BCA_IV_CSS_AY2025-26.git)  
 **Instructor:** [Rahul Dhangar](https://github.com/rahuldhangar)  
 **University:** Mandsaur University  
-**Version:** 2.0 (Complete)
+**Version:** 2.1 (Expanded)
